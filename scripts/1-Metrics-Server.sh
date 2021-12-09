@@ -17,6 +17,6 @@ kubectl -n kube-system patch deployment metrics-server --type='json' -p '[
     }
 ]'
 
-sleep 10
+sleep 15
 kubectl top nodes
 kubectl top pods
